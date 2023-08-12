@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Spectrum Web Components and LitElement Project</title>
+  <!-- カスタムエレメントのスクリプトをインポートする -->
+  <!-- <script type="module" src="./src/components/Counter.js"></script> -->
+  <!-- <script type="module" src="./src/components/MyContainer.js"></script>
+  <script type="module" src="./src/components/AndroidComponent.js"></script>
+  <script type="module" src="./src/components/iOSComponent.js"></script>
+  <script type="module" src="./src/components/PlatformSwitcher.js"></script> -->
+  <script type="module" src="index.js"></script>
+  <link href="main.css" rel="stylesheet" data-name='vs/editor/editor.main'></link>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background-color: #f0f0f0;
+      overflow: hidden;
+    }
+  </style>
+</head>
+
+<body>
+
+  <app-container></app-container>
+
+  <script>
+    // window.onload = function() {
+    //     var dropzone = document.getElementById("dropzone").contentWindow.document.body;
+    //     dropzone.addEventListener("dragover", function(event) {
+    //       event.preventDefault();
+    //       event.dataTransfer.dropEffect = "move";
+    //       const dataValue = event.currentTarget.getAttribute("data");
+    //       console.log(dataValue);
+    //     });
+
+    //     dropzone.addEventListener("drop", function(event) {
+    //       const dataValue = event.currentTarget.getAttribute("data");
+    //       console.log(dataValue);
+    //     });
+    // };
+  </script>
+</body>
+
+</html>
